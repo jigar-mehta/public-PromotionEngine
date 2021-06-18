@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.Service.AutoPromotion", "Source\PromotionEngine.Service.AutoPromotion\PromotionEngine.Service.AutoPromotion.csproj", "{D6BC5BA9-148D-4D91-9C1B-ED87F98D83CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{586AAE2A-4043-46DF-BA9B-2028E6066C0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6BD9208D-CF02-45CF-A90A-52AF7D8A30F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionEngine.Service.AutoPromotion_uTest", "Test\PromotionEngine.Service.AutoPromotion_uTest\PromotionEngine.Service.AutoPromotion_uTest.csproj", "{8506E44E-099E-4507-9BD0-32B1C91C7268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BC5BA9-148D-4D91-9C1B-ED87F98D83CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BC5BA9-148D-4D91-9C1B-ED87F98D83CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BC5BA9-148D-4D91-9C1B-ED87F98D83CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BC5BA9-148D-4D91-9C1B-ED87F98D83CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8506E44E-099E-4507-9BD0-32B1C91C7268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8506E44E-099E-4507-9BD0-32B1C91C7268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8506E44E-099E-4507-9BD0-32B1C91C7268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8506E44E-099E-4507-9BD0-32B1C91C7268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6BC5BA9-148D-4D91-9C1B-ED87F98D83CD} = {586AAE2A-4043-46DF-BA9B-2028E6066C0A}
+		{8506E44E-099E-4507-9BD0-32B1C91C7268} = {6BD9208D-CF02-45CF-A90A-52AF7D8A30F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BD96F6E-D62D-4203-AF11-DBC372F5FE2D}
+	EndGlobalSection
+EndGlobal
