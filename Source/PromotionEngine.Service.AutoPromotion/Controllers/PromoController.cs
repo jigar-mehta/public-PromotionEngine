@@ -38,6 +38,7 @@ namespace PromotionEngine.Service.AutoPromotion.Controllers
             myMiscPromotion = myPromoFactory.CreateMiscPromoInstance();
             await myMiscPromotion.ApplyMixedProductPromotionAsync(order.Where(w => w.PromoApplied == false).ToList());
 
+            //for remaining items which are not eligible for offer
             order.Where(w => w.PromoApplied == false).ToList().ForEach(async remainingItem => 
                 {
                     myPromotion = myPromoFactory.CreateInstance(remainingItem.Item);
