@@ -2,7 +2,7 @@
 
 namespace PromotionEngine.Service.AutoPromotion.Promotion
 {
-    class PromoForA : IPromotion
+    public class PromoForA : IPromotion
     {
         private readonly double itemPrice = 50;    //per item
         private readonly double offerPrice = 130;  //per offer group, in this case 3items
